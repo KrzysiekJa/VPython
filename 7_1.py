@@ -28,38 +28,6 @@ while 1:
     ball.pos.x = ball.pos.x + ball.vel.x * dt
     ball.pos.y = ball.pos.y + ball.vel.y * dt
     ball.pos.z = ball.pos.z + ball.vel.z * dt
-    """if (ball.pos.x >= wallR.pos.x - 1.5 and ball.pos.y >= ceil.pos.y - 1.5):
-        ball.vel.x = -ball.vel.x
-        ball.vel.y = -ball.vel.y
-        ball.color = v
-    if (ball.pos.x >= wallR.pos.x - 1.5 and ball.pos.y <= floor.pos.y + 1.5):
-        ball.vel.x = -ball.vel.x
-        ball.vel.y = -ball.vel.y
-        ball.color = v
-    if (ball.pos.x <= wallL.pos.x + 1.5 and ball.pos.y >= ceil.pos.y - 1.5):
-        ball.vel.x = -ball.vel.x
-        ball.vel.y = -ball.vel.y
-        ball.color = v
-    if (ball.pos.x <= wallL.pos.x + 1.5 and ball.pos.y <= floor.pos.y + 1.5):
-        ball.vel.x = -ball.vel.x
-        ball.vel.y = -ball.vel.y
-        ball.color = v
-    if (ball.pos.z <= back.pos.z + 1.5 and ball.pos.x >= wallR.pos.x - 1.5): 
-        ball.vel.x = -ball.vel.x
-        ball.vel.z = -ball.vel.z
-        ball.color = v
-    if (ball.pos.z <= back.pos.z + 1.5 and ball.pos.x <= wallL.pos.x + 1.5):
-        ball.vel.x = -ball.vel.x
-        ball.vel.z = -ball.vel.z
-        ball.color = v
-    if (ball.pos.z <= back.pos.z + 1.5 and ball.pos.y >= ceil.pos.y - 1.5):
-        ball.vel.z = -ball.vel.z
-        ball.vel.y = -ball.vel.y
-        ball.color = v
-    if (ball.pos.z <= back.pos.z + 1.5 and ball.pos.y <= floor.pos.y + 1.5):
-        ball.vel.z = -ball.vel.z
-        ball.vel.y = -ball.vel.y
-        ball.color = v"""
     if ball.pos.x >= wallR.pos.x - 1.5:
         ball.vel.x = -ball.vel.x
         ball.color = wallR.color
