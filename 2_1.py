@@ -1,6 +1,6 @@
 import math
 import random
-# pi counting with spheral method
+# pi calculating with spheral method
 
 S_s = 4.0
 N_r = 0.0
