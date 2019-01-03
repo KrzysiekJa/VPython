@@ -1,4 +1,4 @@
-# counting sum and mutliplication of series of numbers
+# calculating sum and mutliplication of series of numbers
 k = 0
 L = []
 while k < 200:
