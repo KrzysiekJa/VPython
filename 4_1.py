@@ -1,4 +1,4 @@
-# program is counting pi in different dimentions' cases
+# program is calculating pi in different dimentions' cases
 
 import numpy as np
 import factorial   # my own module
