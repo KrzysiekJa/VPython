@@ -1,5 +1,5 @@
 import math
-# pi counting with Laibniz' method
+# pi calculating with Laibniz' method
 
 f = open('results_2_2.txt', 'w')
 piii = 0.0
